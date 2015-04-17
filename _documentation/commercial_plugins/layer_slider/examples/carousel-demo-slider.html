@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LayerSlider carousel demo slider</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../documentation/assets/css/doc.css">
+	<link rel="stylesheet" href="../documentation/assets/css/font.css">
+	<link href="http://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="../documentation/assets/js/html5.js"></script>
+	<![endif]-->
+
+	<!-- LayerSlider stylesheet -->
+	<link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
+	<!-- External libraries: jQuery & GreenSock -->
+	<script src="../layerslider/js/jquery.js" type="text/javascript"></script>
+	<script src="../layerslider/js/greensock.js" type="text/javascript"></script>
+	<!-- LayerSlider script files -->
+	<script src="../layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="../layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+	<style>
+
+		/*
+			You can add your custom layer styles
+			in the style attribute of the layer,
+			to a style element or
+			to an external css file
+		*/
+
+		#layerslider * {
+			font-family: Oswald;
+		}
+
+		#slider-wrapper {
+			padding-bottom: 100px;
+		}
+
+	</style>
+
+</head>
+<body class="nobg">
+	<div id="slider-wrapper">
+		<div id="layerslider" class="ls-wp-container" style="width:1280px;height:720px;max-width:1280px;">
+			<div class="ls-slide" data-ls="transition2d:73;">
+				<img src="sliderimages/tablet.png" class="ls-bg" alt="Slide background"/>
+				<h6 class="ls-l-1" style="top:70%;left:25%;durationin:500;delayin:600;fadein:false;rotatein:30;durationout:500;fadeout:false;slidedirection:fade;slideoutdirection:fade;scalein:0.1;scaleout:0.1;font-weight: 400; box-shadow: 0px 2px 8px -2px black;padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;font-size:30px;color:#ffffff;background:#ff7700;border-radius:5px;white-space: nowrap;">only $499</h6>
+				<h6 class="ls-l-1" style="top:63%;left:25%;durationin:500;delayin:500;fadein:false;rotatein:-30;durationout:500;fadeout:false;slidedirection:fade;slideoutdirection:fade;scalein:0.1;scaleout:0.1;font-weight: 400; box-shadow: 0px 2px 8px -2px black;padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;font-size:30px;color:#ffffff;background:#000000;border-radius:5px;white-space: nowrap;">Sample price</h6>
+			</div>
+			<div class="ls-slide" data-ls="transition2d:73;">
+				<img src="sliderimages/computer.png" class="ls-bg" alt="Slide background"/>
+				<h6 class="ls-l-1" style="top:80%;left:20%;durationin:500;delayin:600;fadein:false;rotatein:30;durationout:500;fadeout:false;slidedirection:fade;slideoutdirection:fade;scalein:0.1;scaleout:0.1;font-weight: 400; box-shadow: 0px 2px 8px -2px black;padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;font-size:30px;color:#ffffff;background:#ff7700;border-radius:5px;white-space: nowrap;">only $1299</h6>
+				<h6 class="ls-l-1" style="top:73%;left:20%;durationin:500;delayin:500;fadein:false;rotatein:-30;durationout:500;fadeout:false;slidedirection:fade;slideoutdirection:fade;scalein:0.1;scaleout:0.1;font-weight: 400; box-shadow: 0px 2px 8px -2px black;padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;font-size:30px;color:#ffffff;background:#000000;border-radius:5px;white-space: nowrap;">Sample price</h6>
+			</div>
+			<div class="ls-slide" data-ls="transition2d:73;">
+				<img src="sliderimages/phone.png" class="ls-bg" alt="Slide background"/>
+				<h6 class="ls-l-1" style="top:50%;left:80%;durationin:500;delayin:600;fadein:false;rotatein:30;durationout:500;fadeout:false;slidedirection:fade;slideoutdirection:fade;scalein:0.1;scaleout:0.1;font-weight: 400; box-shadow: 0px 2px 8px -2px black;padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;font-size:30px;color:#ffffff;background:#ff7700;border-radius:5px;white-space: nowrap;">only $199</h6>
+				<h6 class="ls-l-1" style="top:43%;left:80%;durationin:500;delayin:500;fadein:false;rotatein:-30;durationout:500;fadeout:false;slidedirection:fade;slideoutdirection:fade;scalein:0.1;scaleout:0.1;font-weight: 400; box-shadow: 0px 2px 8px -2px black;padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;font-size:30px;color:#ffffff;background:#000000;border-radius:5px;white-space: nowrap;">Sample price</h6>
+			</div>
+		</div>
+	</div>
+
+	<div id="example-wrapper">
+		<div id="example">
+			<section>
+				<h4>Carousel demo slider</h4>
+				<p>
+
+				</p>
+				<p>
+					<a href="../documentation/documentation.html#slider-examples">back to examples</a>
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<!-- Initializing the slider -->
+	<script>
+		jQuery("#layerslider").layerSlider({
+			autoStart: false,
+			skin: 'carousel',
+			hoverPrevNext: false,
+			navStartStop: false,
+			showCircleTimer: false,
+			thumbnailNavigation: 'always',
+			skinsPath: '../layerslider/skins/'
+		});
+	</script>
+</body>
+</html>

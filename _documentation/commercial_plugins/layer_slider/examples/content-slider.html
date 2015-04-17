@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LayerSlider content slider</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../documentation/assets/css/doc.css">
+	<link rel="stylesheet" href="../documentation/assets/css/font.css">
+	<link href="http://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="../documentation/assets/js/html5.js"></script>
+	<![endif]-->
+
+	<!-- LayerSlider stylesheet -->
+	<link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
+	<!-- External libraries: jQuery & GreenSock -->
+	<script src="../layerslider/js/jquery.js" type="text/javascript"></script>
+	<script src="../layerslider/js/greensock.js" type="text/javascript"></script>
+	<!-- LayerSlider script files -->
+	<script src="../layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="../layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+	<style>
+
+		/*
+			You can add your custom layer styles
+			in the style attribute of the layer,
+			to a style element or
+			to an external css file
+		*/
+
+		#layerslider h1 {
+			font-family: Lato, 'Open Sans', sans-serif;
+			font-weight: 300;
+		}
+
+		#layerslider div {
+			font-family: 'Open Sans', Lato, sans-serif;
+			font-weight: 400;
+		}
+
+	</style>
+
+</head>
+<body class="nobg">
+	<div id="slider-wrapper">
+		<div id="layerslider" style="width:1280px;height:720px;max-width: 1280px;">
+			<div class="ls-slide" data-ls="slidedelay:5000;transition2d:92;timeshift:-1000;">
+				<img src="sliderimages/jellyfish-blur.jpg" class="ls-bg" alt="Slide background"/><img src="sliderimages/jellyfish.png" class="ls-l" style="top:117px;left:578px;white-space: nowrap;" data-ls="offsetxin:0;durationin:4000;delayin:1500;easingin:easeInOutQuad;scalexin:1.1;scaleyin:1.1;offsetxout:0;durationout:1000;scalexout:0.9;scaleyout:0.9;">
+				<h1 class="ls-l" style="top:150px;left:50px;font-size:50px;color:#ddb7eb;white-space: nowrap;" data-ls="offsetxin:0;durationin:3000;delayin:2000;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;">
+					Jellyfish
+				</h1>
+				<div class="ls-l" style="top:220px;left:50px; text-align: justify;width:500px;font-size:20px;color:#def2ff;" data-ls="offsetxin:-150;durationin:2000;delayin:500;easingin:easeInOutQuart;rotateyin:-40;offsetxout:-150;durationout:1000;rotateyout:-40;">
+					Jellyfish or jellies are the major non-polyp form of individuals of the phylum Cnidaria. They are typified as free-swimming marine animals consisting of a gelatinous umbrella-shaped bell and trailing tentacles. The bell can pulsate for locomotion, while stinging tentacles can be used to capture prey. Jellyfish are found in every ocean, from the surface to the deep sea. A few jellyfish inhabit freshwater. Large, often colorful, jellyfish are common in coastal zones worldwide. Jellyfish have roamed the seas for at least 500 million years, and possibly 700 million years or more, making them the oldest multi-organ animal.
+				</div>
+			</div>
+			<div class="ls-slide" data-ls="slidedelay:5000;transition2d:104;">
+				<img src="sliderimages/coral.jpg" class="ls-bg" alt="Slide background"/><img src="sliderimages/clownfish.png" class="ls-l" style="top:292px;left:67px;white-space: nowrap;" data-ls="offsetxin:-600;offsetyin:100;durationin:4000;delayin:1000;easingin:easeOutQuart;fadein:false;offsetxout:2400;offsetyout:-400;durationout:1000;easingout:easeInQuart;fadeout:false;scalexout:0.9;scaleyout:0.9;">
+				<h1 class="ls-l" style="top:150px;left:730px;font-size:50px;color:#ffa724;white-space: nowrap;" data-ls="offsetxin:0;durationin:3000;delayin:1500;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;">
+					Clownfish
+				</h1>
+				<div class="ls-l" style="top:220px;left:730px; text-align: justify;width:500px;font-size:20px;color:#fff5e5;" data-ls="offsetxin:150;durationin:2000;easingin:easeInOutQuart;rotateyin:40;offsetxout:150;rotateyout:40;">
+					Clownfish or anemonefish are fishes from the subfamily Amphiprioninae in the family Pomacentridae. Thirty species are recognized, one in the genus Premnas, while the remaining are in the genus Amphiprion. In the wild they all form symbiotic mutualisms with sea anemones. Depending on species, Clownfish are overall yellow, orange, or a reddish or blackish color, and many show white bars or patches. The largest can reach a length of 18 centimetres (7.1 in), while the smallest barely can reach 10 centimetres (3.9 in). Clownfish are native to warmer waters of the Indian and Pacific oceans, including the Great Barrier Reef and the Red Sea.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="example-wrapper">
+		<div id="example">
+			<section>
+				<h4>Content slider</h4>
+				<p>
+
+				</p>
+				<p>
+					<a href="../documentation/documentation.html#slider-examples">back to examples</a>
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<!-- Initializing the slider -->
+	<script>
+		jQuery("#layerslider").layerSlider({
+			skinsPath: '../layerslider/skins/'
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LayerSlider previous version 2D demo slider</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../documentation/assets/css/doc.css">
+	<link rel="stylesheet" href="../documentation/assets/css/font.css">
+	<link href="http://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="../documentation/assets/js/html5.js"></script>
+	<![endif]-->
+
+	<!-- LayerSlider stylesheet -->
+	<link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
+	<!-- External libraries: jQuery & GreenSock -->
+	<script src="../layerslider/js/jquery.js" type="text/javascript"></script>
+	<script src="../layerslider/js/greensock.js" type="text/javascript"></script>
+	<!-- LayerSlider script files -->
+	<script src="../layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="../layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+	<style>
+
+		/*
+			You can add your custom layer styles
+			in the style attribute of the layer,
+			to a style element or
+			to an external css file
+		*/
+
+		#layerslider * {
+			font-family: Arial, sans-serif;
+		}
+
+	</style>
+
+</head>
+<body class="nobg">
+	<div id="slider-wrapper">
+		<div id="layerslider" class="ls-wp-container" style="width:1280px;height:720px;max-width:1280px;">
+			<div class="ls-slide" data-ls="slidedelay:4500;transition2d:24,25,27,28,34,35,37,38,110,113;">
+				<img src="sliderimages/bg1.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:544px;left:333px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;durationin:4600;easingin:easeOutQuad;fadein:false;rotatein:-10;offsetxout:0;durationout:1500;" src="sliderimages/ladybug.png" alt="Ladybug">
+				<h5 class="ls-l" style="top:257px;left:50%;text-align: center; background: black; background: rgba(0,0,0,.75); font-weight: normal;width:350px;height:100px;font-size:50px;line-height:100px;color:#eee;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;scalexin:0;scaleyin:0;offsetxout:0;offsetyout:top;durationout:750;showuntil:500;fadeout:false;">welcome to</h5>
+				<h5 class="ls-l" style="top:363px;left:50%;text-align: center; font-weight: normal;width:400px;height:100px;font-size:50px;line-height:100px;color:#444;background:white;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;scalexin:0;scaleyin:0;offsetxout:0;offsetyout:bottom;durationout:750;showuntil:500;fadeout:false;">LAYERSLIDER</h5>
+				<h5 class="ls-l" style="top:249px;left:384px;text-align: center; font-weight: normal;width:100px;height:70px;font-size:40px;line-height:70px;color:white;background:#cf431d;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:2000;rotatein:-90;scalexin:2.5;scaleyin:2.5;offsetxout:0;durationout:1000;rotateout:-90;scalexout:0;scaleyout:0;">The</h5>
+				<h5 class="ls-l" style="top:249px;left:490px;text-align: center; font-weight: normal;width:285px;height:70px;font-size:40px;line-height:70px;color:white;background:#cf431d;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:1500;delayin:1600;easingin:easeInOutQuart;fadein:false;scalexin:5;scaleyin:5;offsetxout:0;offsetyout:top;durationout:1000;fadeout:false;">content slider</h5>
+				<h5 class="ls-l" style="top:249px;left:781px;text-align: center; font-weight: normal;width:115px;height:70px;font-size:40px;line-height:70px;color:white;background:#cf431d;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:2200;rotatein:90;scalexin:2.5;scaleyin:2.5;offsetxout:0;durationout:1000;rotateout:90;scalexout:0;scaleyout:0;">with</h5>
+				<h5 class="ls-l" style="top:325px;left:384px;text-align: center; background: black; background: rgba(0,0,0,.75); font-weight: normal;width:270px;height:70px;font-size:40px;line-height:70px;color:white;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:left;durationin:1500;delayin:1800;easingin:easeInOutQuart;fadein:false;scalexin:5;scaleyin:5;offsetxout:left;durationout:1000;fadeout:false;">breathtaking</h5>
+				<h5 class="ls-l" style="top:325px;left:660px;text-align: center; background: black; background: rgba(0,0,0,.75); font-weight: normal;width:236px;height:70px;font-size:40px;line-height:70px;color:white;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:right;durationin:1500;delayin:1500;easingin:easeInOutQuart;fadein:false;scalexin:5;scaleyin:5;offsetxout:right;durationout:1000;fadeout:false;">transitions</h5>
+				<h5 class="ls-l" style="top:401px;left:384px;text-align: center; font-weight: normal;width:110px;height:70px;font-size:40px;line-height:70px;color:#444;background:white;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:2100;rotatein:90;scalexin:2.5;scaleyin:2.5;offsetxout:0;durationout:1000;rotateout:90;scalexout:0;scaleyout:0;">and</h5>
+				<h5 class="ls-l" style="top:401px;left:500px;text-align: center; font-weight: normal;width:205px;height:70px;font-size:40px;line-height:70px;color:#444;background:white;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;durationin:1500;delayin:1700;easingin:easeInOutQuart;fadein:false;scalexin:5;scaleyin:5;offsetxout:0;offsetyout:bottom;durationout:1000;fadeout:false;">awesome</h5>
+				<h5 class="ls-l" style="top:401px;left:711px;text-align: center; font-weight: normal;width:185px;height:70px;font-size:40px;line-height:70px;color:#444;background:white;border-radius:5px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:2300;rotatein:-90;scalexin:2.5;scaleyin:2.5;offsetxout:0;durationout:1000;rotateout:-90;scalexout:0;scaleyout:0;">features</h5>
+			</div>
+			<div class="ls-slide" data-ls="slidedelay:5000;transition2d:76,77,78,79;">
+				<img src="sliderimages/bg3.jpg" class="ls-bg" alt="Slide background"/>
+				<h5 class="ls-l" style="top:200px;left:20px;text-align: center; font-weight: normal;width:50px;height:50px;font-size:50px;line-height:50px;color:#eee;background:#2e69ad;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:205px;left:85px; font-weight: normal;font-size:30px;color:#f0f6fd;white-space: nowrap;" data-ls="offsetxin:left;easingin:easeOutBack;fadein:false;scalexin:0.1;scaleyin:0.1;offsetxout:left;durationout:750;fadeout:false;scalexout:0.1;scaleyout:0.1;">touch-enabled</h5>
+				<h5 class="ls-l" style="top:260px;left:20px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50PX;color:#eee;background:#2e69ad;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:500;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:265px;left:85px; font-weight: normal;font-size:30px;color:#f0f6fd;white-space: nowrap;" data-ls="offsetxin:left;delayin:500;easingin:easeOutBack;fadein:false;scalexin:0.1;scaleyin:0.1;offsetxout:left;durationout:750;fadeout:false;scalexout:0.1;scaleyout:0.1;">responsive</h5>
+				<h5 class="ls-l" style="top:90%;left:79%; font-weight: normal;padding-top:10px;padding-right:25px;padding-bottom:10px;padding-left:25px;font-size:30px;color:#f0f6fd;background:#2e69ad;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;durationin:750;delayin:1000;easingin:easeOutQuint;fadein:false;scalexin:0.5;scaleyin:0.5;offsetxout:0;offsetyout:bottom;durationout:750;fadeout:false;">with timed layers captions</h5>
+				<h5 class="ls-l" style="top:570.2899932861328px;left:1002.4000244140625px; font-weight: bold;padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;font-size:100px;color:#f4f8fc;white-space: nowrap;" data-ls="offsetxin:0;delayin:1250;easingin:easeOutQuint;scalexin:3;scaleyin:3;offsetxout:0;durationout:1000;scalexout:3;scaleyout:3;">&amp;</h5>
+				<h5 class="ls-l" style="top:63%;left:60%; font-weight: normal;padding-top:10px;padding-right:25px;padding-bottom:10px;padding-left:25px;font-size:30px;color:#2e69ad;background:#f0f6fd;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:450;delayin:1750;easingin:easeOutQuart;scalexin:0;scaleyin:0;offsetxout:0;durationout:1000;showuntil:51;easingout:easeInQuart;scalexout:3;scaleyout:3;">Clown Fish</h5>
+				<img class="ls-l" style="top:35%;left:60%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:750;delayin:1500;easingin:easeOutQuart;fadein:false;offsetxout:right;durationout:1000;showuntil:1;easingout:easeInQuart;fadeout:false;" src="sliderimages/fish-showcase-3.png" alt="Clown Fish">
+				<h5 class="ls-l" style="top:63%;left:60%; font-weight: normal;padding-top:10px;padding-right:25px;padding-bottom:10px;padding-left:25px;font-size:30px;color:#2e69ad;background:#f0f6fd;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:450;delayin:3250;easingin:easeOutQuart;scalexin:0;scaleyin:0;offsetxout:0;durationout:1000;showuntil:51;easingout:easeInQuart;scalexout:3;scaleyout:3;">Blue Sergeonfish</h5>
+				<img class="ls-l" style="top:35%;left:60%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:750;delayin:3000;easingin:easeOutQuart;fadein:false;offsetxout:right;durationout:1000;showuntil:1;easingout:easeInQuart;fadeout:false;" src="sliderimages/fish-showcase-2.png" alt="Blue Sergeonfish">
+				<h5 class="ls-l" style="top:63%;left:60%; font-weight: normal;padding-top:10px;padding-right:25px;padding-bottom:10px;padding-left:25px;font-size:30px;color:#2e69ad;background:#f0f6fd;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:450;delayin:4750;easingin:easeOutQuart;scalexin:0;scaleyin:0;offsetxout:0;durationout:1000;easingout:easeInQuart;scalexout:3;scaleyout:3;">Yellow Tang</h5>
+				<img class="ls-l" style="top:35%;left:60%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:750;delayin:4500;easingin:easeOutQuart;fadein:false;offsetxout:right;durationout:1000;easingout:easeInQuart;fadeout:false;" src="sliderimages/fish-showcase-1.png" alt="Yellow Tang">
+			</div>
+			<div class="ls-slide" data-ls="slidedelay:3300;transition2d:11;">
+				<img src="sliderimages/bg41.jpg" class="ls-bg" alt="Slide background"/><img class="ls-l" style="top:-200px;left:-78px;white-space: nowrap;" data-ls="offsetxin:0;durationin:3600;easingin:easeOutQuad;rotatein:-35;scalexin:2;scaleyin:2;offsetxout:0;durationout:1500;rotateout:35;scalexout:2;scaleyout:2;" src="sliderimages/bokeh.jpg" alt="Bokeh"><img class="ls-l" style="top:81px;left:434px;white-space: nowrap;" data-ls="offsetxin:right;durationin:4000;easingin:easeOutQuart;fadein:false;rotatein:20;scalexin:1.2;scaleyin:1.2;offsetxout:0;offsetyout:bottom;durationout:1000;fadeout:false;rotateout:-10;" src="sliderimages/tucan.png" alt="Tucan"><img class="ls-l" style="top:254px;left:634px;white-space: nowrap;" data-ls="offsetxin:right;durationin:4000;easingin:easeOutQuart;fadein:false;rotatein:20;scalexin:1.2;scaleyin:1.2;offsetxout:0;offsetyout:bottom;durationout:1000;fadeout:false;" src="sliderimages/brench.png" alt="Brench">
+				<h5 class="ls-l" style="top:50%;left:30%; border-radius: 5px;padding-top:5px;padding-right:15px;padding-bottom:5px;padding-left:15px;font-size:30px;color:#94e60f;background:black;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;offsetxout:right;durationout:1000;showuntil:701;easingout:easeInQuart;fadeout:false;rotateout:35;scalexout:5;scaleyout:5;">with</h5>
+				<h5 class="ls-l" style="top:57%;left:30%;box-shadow: -2px -2px 15px -3px black; border-radius: 5px;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;font-size:40px;color:black;background:#94e60f;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:250;offsetxout:right;durationout:1000;showuntil:351;easingout:easeInQuart;fadeout:false;rotateout:35;scalexout:5;scaleyout:5;">the famous</h5>
+				<h5 class="ls-l" style="top:67%;left:30%;box-shadow: -3px -3px 20px -3px black; border-radius: 5px;padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;font-size:60px;color:#94e60f;background:black;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:500;offsetxout:right;durationout:1000;showuntil:1;easingout:easeInQuart;fadeout:false;rotateout:35;scalexout:5;scaleyout:5;">parallax effect</h5>
+			</div>
+			<div class="ls-slide" data-ls="slidedelay:3400;transition2d:92,93;">
+				<img src="sliderimages/455293175_1280.jpg" class="ls-bg" alt="Slide background"/>
+				<div class="ls-l" style="top:0px;left:0px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;offsetxout:0;durationout:1500;">
+					<iframe src="http://player.vimeo.com/video/52123602?title=0&amp;byline=0&amp;portrait=0" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+					</iframe>
+				</div>
+				<h5 class="ls-l" style="top:25px;left:85px; font-weight: normal; text-shadow: 0px 0px 20px #224177;font-size:30px;color:#eee;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:500;easingin:easeOutQuint;fadein:false;rotatein:-90;offsetxout:0;offsetyout:top;durationout:750;showuntil:4000;fadeout:false;rotateout:-90;">optional auto-play</h5>
+				<h5 class="ls-l" style="top:85px;left:85px; font-weight: normal; text-shadow: 0px 0px 20px #224177;font-size:30px;color:#eee;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:1000;easingin:easeOutQuint;fadein:false;rotatein:-90;offsetxout:0;offsetyout:top;durationout:750;showuntil:4000;fadeout:false;rotateout:-90;">with auto-pause slideshow</h5>
+				<h5 class="ls-l" style="top:620px;left:640px; font-weight: normal;padding-top:10px;padding-right:25px;padding-bottom:10px;padding-left:25px;font-size:30px;color:#224177;background:#eee;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:right;durationin:750;easingin:easeOutQuint;fadein:false;offsetxout:0;offsetyout:bottom;durationout:750;showuntil:4500;fadeout:false;">easy to add full-sized or windowed videos</h5>
+				<h5 class="ls-l" style="top:20px;left:20px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:55px;color:#224177;background:#eee;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:500;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;showuntil:4000;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:80px;left:20px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:#224177;background:#eee;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1000;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;showuntil:4000;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:50%;left:40%; font-weight: normal; opacity: .6; filter: alpha(opacity=60);padding-top:4px;padding-right:15px;padding-bottom:7px;padding-left:15px;font-size:24px;color:#444f70;background:#ffffff;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:left;delayin:2000;easingin:easeOutQuint;fadein:false;offsetxout:left;durationout:750;showuntil:2000;fadeout:false;">click to play</h5>
+			</div>
+			<div class="ls-slide" data-ls="slidedelay:2000;transition2d:1;">
+				<img src="sliderimages/bg7a.jpg" class="ls-bg" alt="Slide background"/>
+				<h5 class="ls-l" style="top:630px;left:40px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:#3b173d;background:#eee;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;showuntil:4000;rotateout:-90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:635px;left:105px; font-weight: normal;font-size:30px;color:#eee;white-space: nowrap;" data-ls="offsetxin:0;delayin:300;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;showuntil:4000;scalexout:0.8;scaleyout:0.8;">you can now use long backgrounds on multiple slides...</h5>
+			</div>
+			<div class="ls-slide" data-ls="slidedelay:2000;transition2d:1;">
+				<img src="sliderimages/bg7b.jpg" class="ls-bg" alt="Slide background"/>
+				<h5 class="ls-l" style="top:635px;left:40px; font-weight: normal;font-size:30px;color:#eee;white-space: nowrap;" data-ls="offsetxin:0;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;showuntil:4000;scalexout:0.8;scaleyout:0.8;">...to create a spectacular panorama slideshow!</h5>
+			</div>
+			<div class="ls-slide" data-ls="slidedelay:4500;transition2d:105,106;">
+				<img src="sliderimages/bg5.jpg" class="ls-bg" alt="Slide background"/>
+				<h5 class="ls-l" style="top:100px;left:700px; font-weight: normal;font-size:60px;color:#ff7700;white-space: nowrap;" data-ls="offsetxin:0;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:1000;scalexout:0.5;scaleyout:0.5;">...and much more!</h5>
+				<h5 class="ls-l" style="top:335px;left:761px; font-weight: normal;font-size:30px;color:#85c201;white-space: nowrap;" data-ls="offsetxin:0;delayin:800;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">use with any HTML content</h5>
+				<h5 class="ls-l" style="top:395px;left:761px; font-weight: normal;font-size:30px;color:#85c201;white-space: nowrap;" data-ls="offsetxin:0;delayin:1300;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">built-in powerful API</h5>
+				<h5 class="ls-l" style="top:455px;left:761px; font-weight: normal;font-size:30px;color:#85c201;white-space: nowrap;" data-ls="offsetxin:0;delayin:1800;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">supports all major browsers</h5>
+				<h5 class="ls-l" style="top:515px;left:761px; font-weight: normal;font-size:30px;color:#85c201;white-space: nowrap;" data-ls="offsetxin:0;delayin:2300;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">SEO friendly</h5>
+				<h5 class="ls-l" style="top:575px;left:761px; font-weight: normal;font-size:30px;color:#85c201;white-space: nowrap;" data-ls="offsetxin:0;delayin:2800;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">sample sliders included</h5>
+				<h5 class="ls-l" style="top:635px;left:761px; font-weight: normal;font-size:30px;color:#85c201;white-space: nowrap;" data-ls="offsetxin:0;delayin:3300;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">free updates &amp; support</h5>
+				<h5 class="ls-l" style="top:330px;left:700px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#85c201;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:500;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:390px;left:700px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#85c201;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1000;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:450px;left:700px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#85c201;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1500;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:510px;left:700px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#85c201;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:2000;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:570px;left:700px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#85c201;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:2500;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<h5 class="ls-l" style="top:630px;left:700px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#85c201;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:3000;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+				<img class="ls-l" style="top:607px;left:164px;white-space: nowrap;" data-ls="offsetxin:left;durationin:1500;delayin:1400;fadein:false;offsetxout:left;durationout:1000;fadeout:false;" src="sliderimages/layerslider-on-cellphone.png" alt="LayerSlider on cellphone"><img class="ls-l" style="top:583px;left:222px;white-space: nowrap;" data-ls="offsetxin:left;durationin:1500;delayin:1200;fadein:false;offsetxout:left;durationout:1000;fadeout:false;" src="sliderimages/layerslider-on-tablet.png" alt="LayerSlider on tablet"><img class="ls-l" style="top:457px;left:316px;white-space: nowrap;" data-ls="offsetxin:left;durationin:1500;delayin:1000;fadein:false;offsetxout:left;durationout:1000;fadeout:false;" src="sliderimages/layerslider-on-computer.png" alt="LayerSlider on computer">
+			</div>
+		</div>
+	</div>
+
+	<div id="example-wrapper">
+		<div id="example">
+			<section>
+				<h4>Previous version 2D demo slider</h4>
+				<p>
+
+				</p>
+				<p>
+					<a href="../documentation/documentation.html#slider-examples">back to examples</a>
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<!-- Initializing the slider -->
+	<script>
+		jQuery("#layerslider").layerSlider({
+			skin: 'fullwidth',
+			autoPlayVideos: false,
+			skinsPath: '../layerslider/skins/'
+		});
+	</script>
+</body>
+</html>

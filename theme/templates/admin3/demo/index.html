@@ -1,0 +1,2761 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
+Version: 3.3.0
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8">
+<title>Metronic | Admin Dashboard Template</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="" name="description">
+<meta content="" name="author">
+<script src="../livecss.js" type="text/javascript"></script>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
+<link href="../../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<link href="../../assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css">
+<link href="../../assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css">
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+<!-- BEGIN PAGE STYLES -->
+<link href="../../assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE STYLES -->
+<!-- BEGIN MANDATORY THEME STYLES -->
+<link href="../../assets/global/css/components.css" rel="stylesheet" type="text/css">
+<link href="../../assets/global/css/plugins.css" rel="stylesheet" type="text/css">
+<link href="../../assets/admin/layout3/css/layout.css" rel="stylesheet" type="text/css">
+<link href="../../assets/admin/layout3/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color">
+<link href="../../assets/admin/layout3/css/custom.css" rel="stylesheet" type="text/css">
+<!-- END MANDATORY THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- DOC: Apply "page-header-menu-fixed" class to set the mega menu fixed  -->
+<!-- DOC: Apply "page-header-top-fixed" class to set the top menu fixed  -->
+<body>
+	<!-- BEGIN HEADER -->
+	<div class="page-header">
+		<!-- BEGIN HEADER TOP -->
+		<div class="page-header-top">
+			<div class="container">
+				<!-- BEGIN LOGO -->
+				<div class="page-logo">
+					<a href="index.html"><img src="../../assets/admin/layout3/img/logo-default.png" alt="logo" class="logo-default"></a>
+				</div>
+				<!-- END LOGO -->
+				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+				<a href="javascript:;" class="menu-toggler"></a>
+				<!-- END RESPONSIVE MENU TOGGLER -->
+				<!-- BEGIN TOP NAVIGATION MENU -->
+				<div class="top-menu">
+					<ul class="nav navbar-nav pull-right">
+						<!-- BEGIN NOTIFICATION DROPDOWN -->
+						<li class="dropdown dropdown-extended dropdown-dark dropdown-notification" id="header_notification_bar">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<i class="icon-bell"></i>
+							<span class="badge badge-default">7</span>
+							</a>
+							<ul class="dropdown-menu">
+								<li class="external">
+									<h3>You have <strong>12 pending</strong> tasks</h3>
+									<a href="#">view all</a>
+								</li>
+								<li>
+									<ul class="dropdown-menu-list scroller" style="height: 250px;" data-handle-color="#637283">
+										<li>
+											<a href="#">											
+											<span class="time">just now</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-success">
+											<i class="fa fa-plus"></i>
+											</span>
+											New user registered.
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">										
+											<span class="time">3 mins</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-danger">
+											<i class="fa fa-bolt"></i>
+											</span>
+											Server #12 overloaded.
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">											
+											<span class="time">10 mins</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-warning">
+											<i class="fa fa-bell-o"></i>
+											</span>
+											Server #2 not responding.
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">											
+											<span class="time">14 hrs</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-info">
+											<i class="fa fa-bullhorn"></i>
+											</span>
+											Application error.
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">											
+											<span class="time">2 days</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-danger">
+											<i class="fa fa-bolt"></i>
+											</span>
+											Database overloaded 68%.
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">												
+											<span class="time">3 days</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-danger">
+											<i class="fa fa-bolt"></i>
+											</span>
+											A user IP blocked.
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">											
+											<span class="time">4 days</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-warning">
+											<i class="fa fa-bell-o"></i>
+											</span>
+											Storage Server #4 not responding dfdfdfd.
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">											
+											<span class="time">5 days</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-info">
+											<i class="fa fa-bullhorn"></i>
+											</span>
+											System Error.
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">											
+											<span class="time">9 days</span>
+											<span class="details">
+											<span class="label label-sm label-icon label-danger">
+											<i class="fa fa-bolt"></i>
+											</span>
+											Storage server failed. 
+											</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- END NOTIFICATION DROPDOWN -->
+						<!-- BEGIN TODO DROPDOWN -->
+						<li class="dropdown dropdown-extended dropdown-dark dropdown-tasks" id="header_task_bar">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<i class="icon-calendar"></i>
+							<span class="badge badge-default">3</span>
+							</a>
+							<ul class="dropdown-menu extended tasks">
+								<li class="external">
+									<h3>You have <strong>12 pending</strong> tasks</h3>
+									<a href="#">view all</a>
+								</li>
+								<li>
+									<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
+										<li>
+											<a href="#">
+											<span class="task">
+											<span class="desc">New release v1.2 </span>
+											<span class="percent">30%</span>
+											</span>
+											<span class="progress">
+											<span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">40% Complete</span></span>
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+											<span class="task">
+											<span class="desc">Application deployment</span>
+											<span class="percent">65%</span>
+											</span>
+											<span class="progress">
+											<span style="width: 65%;" class="progress-bar progress-bar-danger" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">65% Complete</span></span>
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+											<span class="task">
+											<span class="desc">Mobile app release</span>
+											<span class="percent">98%</span>
+											</span>
+											<span class="progress">
+											<span style="width: 98%;" class="progress-bar progress-bar-success" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">98% Complete</span></span>
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+											<span class="task">
+											<span class="desc">Database migration</span>
+											<span class="percent">10%</span>
+											</span>
+											<span class="progress">
+											<span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">10% Complete</span></span>
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+											<span class="task">
+											<span class="desc">Web server upgrade</span>
+											<span class="percent">58%</span>
+											</span>
+											<span class="progress">
+											<span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">58% Complete</span></span>
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+											<span class="task">
+											<span class="desc">Mobile development</span>
+											<span class="percent">85%</span>
+											</span>
+											<span class="progress">
+											<span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">85% Complete</span></span>
+											</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+											<span class="task">
+											<span class="desc">New UI release</span>
+											<span class="percent">38%</span>
+											</span>
+											<span class="progress progress-striped">
+											<span style="width: 38%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"><span class="sr-only">38% Complete</span></span>
+											</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- END TODO DROPDOWN -->
+						<!-- BEGIN LANGUAGE DROPDOWN -->
+						<li class="dropdown dropdown-language dropdown-dark">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<img alt="" src="../../assets/global/img/flags/us.png">
+							<span class="langname">US</span>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-default">
+								<li>
+									<a href="#">
+									<img alt="" src="../../assets/global/img/flags/es.png"> Spanish </a>
+								</li>
+								<li>
+									<a href="#">
+									<img alt="" src="../../assets/global/img/flags/de.png"> German </a>
+								</li>
+								<li>
+									<a href="#">
+									<img alt="" src="../../assets/global/img/flags/ru.png"> Russian </a>
+								</li>
+								<li>
+									<a href="#">
+									<img alt="" src="../../assets/global/img/flags/fr.png"> French </a>
+								</li>
+							</ul>
+						</li>
+						<!-- END LANGUAGE DROPDOWN -->
+						<li class="droddown dropdown-separator">
+							<span class="separator"></span>						
+						</li>
+						<!-- BEGIN INBOX DROPDOWN -->
+						<li class="dropdown dropdown-extended dropdown-dark dropdown-inbox" id="header_inbox_bar">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<span class="circle">3</span>
+							<span class="corner"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li class="external">
+									<h3>You have <strong>7 New</strong> Messages</h3>
+									<a href="#">view all</a>
+								</li>
+								<li>
+									<ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
+										<li>
+											<a href="inbox.html?a=view">
+											<span class="photo">
+											<img src="../../assets/admin/layout3/img/avatar2.jpg" class="img-circle" alt="">
+											</span>
+											<span class="subject">
+											<span class="from">
+											Lisa Wong </span>
+											<span class="time">Just Now </span>
+											</span>
+											<span class="message">
+											Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+											</a>
+										</li>
+										<li>
+											<a href="inbox.html?a=view">
+											<span class="photo">
+											<img src="../../assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
+											</span>
+											<span class="subject">
+											<span class="from">
+											Richard Doe </span>
+											<span class="time">16 mins </span>
+											</span>
+											<span class="message">
+											Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+											</a>
+										</li>
+										<li>
+											<a href="inbox.html?a=view">
+											<span class="photo">
+											<img src="../../assets/admin/layout3/img/avatar1.jpg" class="img-circle" alt="">
+											</span>
+											<span class="subject">
+											<span class="from">
+											Bob Nilson </span>
+											<span class="time">2 hrs </span>
+											</span>
+											<span class="message">
+											Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+											</a>
+										</li>
+										<li>
+											<a href="inbox.html?a=view">
+											<span class="photo">
+											<img src="../../assets/admin/layout3/img/avatar2.jpg" class="img-circle" alt="">
+											</span>
+											<span class="subject">
+											<span class="from">
+											Lisa Wong </span>
+											<span class="time">40 mins </span>
+											</span>
+											<span class="message">
+											Vivamus sed auctor 40% nibh congue nibh... </span>
+											</a>
+										</li>
+										<li>
+											<a href="inbox.html?a=view">
+											<span class="photo">
+											<img src="../../assets/admin/layout3/img/avatar3.jpg" class="img-circle" alt="">
+											</span>
+											<span class="subject">
+											<span class="from">
+											Richard Doe </span>
+											<span class="time">46 mins </span>
+											</span>
+											<span class="message">
+											Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- END INBOX DROPDOWN -->
+						<!-- BEGIN USER LOGIN DROPDOWN -->
+						<li class="dropdown dropdown-user dropdown-dark">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<img alt="" class="img-circle" src="../../assets/admin/layout3/img/avatar9.jpg">
+							<span class="username username-hide-mobile">Nick</span>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-default">
+								<li>
+									<a href="extra_profile.html">
+									<i class="icon-user"></i> My Profile </a>
+								</li>
+								<li>
+									<a href="page_calendar.html">
+									<i class="icon-calendar"></i> My Calendar </a>
+								</li>
+								<li>
+									<a href="inbox.html">
+									<i class="icon-envelope-open"></i> My Inbox <span class="badge badge-danger">
+									3 </span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+									<i class="icon-rocket"></i> My Tasks <span class="badge badge-success">
+									7 </span>
+									</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="extra_lock.html">
+									<i class="icon-lock"></i> Lock Screen </a>
+								</li>
+								<li>
+									<a href="login.html">
+									<i class="icon-key"></i> Log Out </a>
+								</li>
+							</ul>
+						</li>
+						<!-- END USER LOGIN DROPDOWN -->
+					</ul>
+				</div>
+				<!-- END TOP NAVIGATION MENU -->
+			</div>
+		</div>
+		<!-- END HEADER TOP -->
+		<!-- BEGIN HEADER MENU -->
+		<div class="page-header-menu">
+			<div class="container">
+				<!-- BEGIN HEADER SEARCH BOX -->
+				<form class="search-form" action="#" method="GET">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search" name="query">
+						<span class="input-group-btn">
+						<a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
+						</span>
+					</div>
+				</form>
+				<!-- END HEADER SEARCH BOX -->
+				<!-- BEGIN MEGA MENU -->
+				<!-- DOC: Apply "hor-menu-light" class after the "hor-menu" class below to have a horizontal menu with white background -->
+				<!-- DOC: This is desktop version of the horizontal menu. The mobile version is defined(duplicated) sidebar menu below. So the horizontal menu has 2 seperate versions -->
+				<div class="hor-menu">
+					<ul class="nav navbar-nav">
+						<!-- DOC: Remove data-hover="dropdown" and data-close-others="true" attributes below to disable the horizontal opening on mouse hover -->
+						<li class="active">
+							<a href="index.html">Dashboard</a>
+						</li>
+						<li class="menu-dropdown mega-menu-dropdown">
+							<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;" class="dropdown-toggle">
+							Features <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu" style="min-width: 700px">
+								<li>
+									<!-- Content container to add padding -->
+									<div class="mega-menu-content">
+										<div class="row">
+											<div class="col-md-4 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>eCommerce</h3>
+													</li>
+													<li>
+														<a href="ecommerce_index.html" class="iconify">
+														<i class="icon-home"></i>
+														Dashboard</a>
+													</li>
+													<li>
+														<a href="ecommerce_orders.html" class="iconify">
+														<i class="icon-basket"></i>
+														Manage Orders</a>
+													</li>
+													<li>
+														<a href="ecommerce_orders_view.html" class="iconify">
+														<i class="icon-tag"></i>
+														Order View</a>
+													</li>
+													<li>
+														<a href="ecommerce_products.html" class="iconify">
+														<i class="icon-handbag"></i>
+														Manage Products</a>
+													</li>
+													<li>
+														<a href="ecommerce_products_edit.html" class="iconify">
+														<i class="icon-pencil"></i>
+														Product Edit</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-4 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Layouts</h3>
+													</li>
+													<li>
+														<a href="layout_fluid.html" class="iconify">
+														<i class="icon-cursor-move"></i> Fluid Layout</a>
+													</li>
+													<li>
+														<a href="layout_mega_menu_fixed.html" class="iconify">
+														<i class="icon-pin"></i> Fixed Mega Menu</a>
+													</li>
+													<li>
+														<a href="layout_mega_menu_light.html" class="iconify">
+														<i class="icon-puzzle"></i> Light Mega Menu</a>
+													</li>
+													<li>
+														<a href="layout_top_bar_fixed.html" class="iconify">
+														<i class="icon-bar-chart"></i> Fixed Top Bar</a>
+													</li>
+													<li>
+														<a href="layout_top_bar_light.html" class="iconify">
+														<i class="icon-paper-plane"></i> Light Top Bar</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-4 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>More Layouts</h3>
+													</li>
+													<li>
+														<a href="layout_fluid.html" class="iconify">
+														<i class="icon-doc"></i> Blank Page</a>
+													</li>
+													<li>
+														<a href="layout_fluid.html" class="iconify">
+														<i class="icon-speech"></i> Full Height Content</a>
+													</li>
+													<li>
+														<a href="layout_mega_menu_fixed.html" class="iconify">
+														<i class="icon-link"></i> Layout with Fontawesome</a>
+													</li>
+													<li>
+														<a href="layout_mega_menu_fixed.html" class="iconify">
+														<i class="icon-settings"></i> Layout with Glyphicon</a>
+													</li>
+													<li>
+														<a href="layout_top_bar_light.html" class="iconify">
+														<i class="icon-globe"></i> Language Switch Bar</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-dropdown mega-menu-dropdown mega-menu-full">
+							<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;" class="dropdown-toggle">
+							UI Lab <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<!-- Content container to add padding -->
+									<div class="mega-menu-content">
+										<div class="row">
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>UI Components</h3>
+													</li>
+													<li>
+														<a href="index_horizontal_menu.html">
+														<i class="fa fa-angle-right"></i> General Components </a>
+													</li>
+													<li>
+														<a href="layout_horizontal_sidebar_menu.html">
+														<i class="fa fa-angle-right"></i> Horizontal & Sidebar Menu </a>
+													</li>
+													<li>
+														<a href="layout_fontawesome_icons.html">
+														<i class="fa fa-angle-right"></i> Layout with Fontawesome Icons</a>
+													</li>
+													<li>
+														<a href="layout_glyphicons.html">
+														<i class="fa fa-angle-right"></i> Layout with Glyphicon</a>
+													</li>
+													<li>
+														<a href="layout_full_height_portlet.html">
+														<i class="fa fa-angle-right"></i> Full Height Portlet <span class="badge badge-roundless badge-danger">new</span></a>
+													</li>
+													<li>
+														<a href="layout_full_height_content.html">
+														<i class="fa fa-angle-right"></i> Full Height Content <span class="badge badge-roundless badge-warning">new</span></a>
+													</li>
+													<li>
+														<a href="layout_horizontal_menu1.html">
+														<i class="fa fa-angle-right"></i> Horizontal Mega Menu 1 </a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>More Layouts</h3>
+													</li>
+													<li>
+														<a href="layout_horizontal_menu2.html">
+														<i class="fa fa-angle-right"></i> Horizontal Mega Menu 2 </a>
+													</li>
+													<li>
+														<a href="layout_search_on_header1.html">
+														<i class="fa fa-angle-right"></i> Search Box On Header 1 </a>
+													</li>
+													<li>
+														<a href="layout_search_on_header2.html">
+														<i class="fa fa-angle-right"></i> Search Box On Header 2 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_search_option1.html">
+														<i class="fa fa-angle-right"></i> Sidebar Search Option 1 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_search_option2.html">
+														<i class="fa fa-angle-right"></i> Sidebar Search Option 2 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_reversed.html">
+														<i class="fa fa-angle-right"></i> Right Sidebar Page </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_fixed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Fixed Page </a>
+													</li>
+												</ul>
+											</div>
+											<div class="clearfix visible-sm-block"></div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Even More!</h3>
+													</li>
+													<li>
+														<a href="layout_sidebar_closed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Closed Page </a>
+													</li>
+													<li>
+														<a href="layout_ajax.html">
+														<i class="fa fa-angle-right"></i> Content Loading via Ajax </a>
+													</li>
+													<li>
+														<a href="layout_blank_page.html">
+														<i class="fa fa-angle-right"></i> Blank Page </a>
+													</li>
+													<li>
+														<a href="layout_boxed_page.html">
+														<i class="fa fa-angle-right"></i> Boxed Page </a>
+													</li>
+													<li>
+														<a href="layout_language_bar.html">
+														<i class="fa fa-angle-right"></i> Language Switch Bar </a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Even More!</h3>
+													</li>
+													<li>
+														<a href="layout_sidebar_closed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Closed Page </a>
+													</li>
+													<li>
+														<a href="layout_ajax.html">
+														<i class="fa fa-angle-right"></i> Content Loading via Ajax </a>
+													</li>
+													<li>
+														<a href="layout_disabled_menu.html">
+														<i class="fa fa-angle-right"></i> Disabled Menu Links </a>
+													</li>
+													<li>
+														<a href="layout_blank_page.html">
+														<i class="fa fa-angle-right"></i> Blank Page </a>
+													</li>
+													<li>
+														<a href="layout_boxed_page.html">
+														<i class="fa fa-angle-right"></i> Boxed Page </a>
+													</li>
+													<li>
+														<a href="layout_language_bar.html">
+														<i class="fa fa-angle-right"></i> Language Switch Bar </a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-dropdown mega-menu-dropdown mega-menu-full">
+							<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;" class="dropdown-toggle">
+							Pages <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<!-- Content container to add padding -->
+									<div class="mega-menu-content">
+										<div class="row">
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Layouts</h3>
+													</li>
+													<li>
+														<a href="index_horizontal_menu.html">
+														<i class="fa fa-angle-right"></i> Dashboard & Mega Menu </a>
+													</li>
+													<li>
+														<a href="layout_horizontal_sidebar_menu.html">
+														<i class="fa fa-angle-right"></i> Horizontal & Sidebar Menu </a>
+													</li>
+													<li>
+														<a href="layout_fontawesome_icons.html">
+														<i class="fa fa-angle-right"></i> Layout with Fontawesome Icons</a>
+													</li>
+													<li>
+														<a href="layout_glyphicons.html">
+														<i class="fa fa-angle-right"></i> Layout with Glyphicon</a>
+													</li>
+													<li>
+														<a href="layout_full_height_portlet.html">
+														<i class="fa fa-angle-right"></i> Full Height Portlet <span class="badge badge-roundless badge-danger">new</span></a>
+													</li>
+													<li>
+														<a href="layout_full_height_content.html">
+														<i class="fa fa-angle-right"></i> Full Height Content <span class="badge badge-roundless badge-warning">new</span></a>
+													</li>
+													<li>
+														<a href="layout_horizontal_menu1.html">
+														<i class="fa fa-angle-right"></i> Horizontal Mega Menu 1 </a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>More Layouts</h3>
+													</li>
+													<li>
+														<a href="layout_horizontal_menu2.html">
+														<i class="fa fa-angle-right"></i> Horizontal Mega Menu 2 </a>
+													</li>
+													<li>
+														<a href="layout_search_on_header1.html">
+														<i class="fa fa-angle-right"></i> Search Box On Header 1 </a>
+													</li>
+													<li>
+														<a href="layout_search_on_header2.html">
+														<i class="fa fa-angle-right"></i> Search Box On Header 2 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_search_option1.html">
+														<i class="fa fa-angle-right"></i> Sidebar Search Option 1 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_search_option2.html">
+														<i class="fa fa-angle-right"></i> Sidebar Search Option 2 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_reversed.html">
+														<i class="fa fa-angle-right"></i> Right Sidebar Page </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_fixed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Fixed Page </a>
+													</li>
+												</ul>
+											</div>
+											<div class="clearfix visible-sm-block"></div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Even More!</h3>
+													</li>
+													<li>
+														<a href="layout_sidebar_closed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Closed Page </a>
+													</li>
+													<li>
+														<a href="layout_ajax.html">
+														<i class="fa fa-angle-right"></i> Content Loading via Ajax </a>
+													</li>
+													<li>
+														<a href="layout_disabled_menu.html">
+														<i class="fa fa-angle-right"></i> Disabled Menu Links </a>
+													</li>
+													<li>
+														<a href="layout_blank_page.html">
+														<i class="fa fa-angle-right"></i> Blank Page </a>
+													</li>
+													<li>
+														<a href="layout_boxed_page.html">
+														<i class="fa fa-angle-right"></i> Boxed Page </a>
+													</li>
+													<li>
+														<a href="layout_language_bar.html">
+														<i class="fa fa-angle-right"></i> Language Switch Bar </a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Even More!</h3>
+													</li>
+													<li>
+														<a href="layout_sidebar_closed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Closed Page </a>
+													</li>
+													<li>
+														<a href="layout_ajax.html">
+														<i class="fa fa-angle-right"></i> Content Loading via Ajax </a>
+													</li>
+													<li>
+														<a href="layout_disabled_menu.html">
+														<i class="fa fa-angle-right"></i> Disabled Menu Links </a>
+													</li>
+													<li>
+														<a href="layout_blank_page.html">
+														<i class="fa fa-angle-right"></i> Blank Page </a>
+													</li>
+													<li>
+														<a href="layout_boxed_page.html">
+														<i class="fa fa-angle-right"></i> Boxed Page </a>
+													</li>
+													<li>
+														<a href="layout_language_bar.html">
+														<i class="fa fa-angle-right"></i> Language Switch Bar </a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-dropdown mega-menu-dropdown mega-menu-full">
+							<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;" class="dropdown-toggle">
+							Mega Menu <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<!-- Content container to add padding -->
+									<div class="mega-menu-content">
+										<div class="row">
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Layouts</h3>
+													</li>
+													<li>
+														<a href="index_horizontal_menu.html">
+														<i class="fa fa-angle-right"></i> Dashboard & Mega Menu </a>
+													</li>
+													<li>
+														<a href="layout_horizontal_sidebar_menu.html">
+														<i class="fa fa-angle-right"></i> Horizontal & Sidebar Menu </a>
+													</li>
+													<li>
+														<a href="layout_fontawesome_icons.html">
+														<i class="fa fa-angle-right"></i> Layout with Fontawesome Icons</a>
+													</li>
+													<li>
+														<a href="layout_glyphicons.html">
+														<i class="fa fa-angle-right"></i> Layout with Glyphicon</a>
+													</li>
+													<li>
+														<a href="layout_full_height_portlet.html">
+														<i class="fa fa-angle-right"></i> Full Height Portlet <span class="badge badge-roundless badge-danger">new</span></a>
+													</li>
+													<li>
+														<a href="layout_full_height_content.html">
+														<i class="fa fa-angle-right"></i> Full Height Content <span class="badge badge-roundless badge-warning">new</span></a>
+													</li>
+													<li>
+														<a href="layout_horizontal_menu1.html">
+														<i class="fa fa-angle-right"></i> Horizontal Mega Menu 1 </a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>More Layouts</h3>
+													</li>
+													<li>
+														<a href="layout_horizontal_menu2.html">
+														<i class="fa fa-angle-right"></i> Horizontal Mega Menu 2 </a>
+													</li>
+													<li>
+														<a href="layout_search_on_header1.html">
+														<i class="fa fa-angle-right"></i> Search Box On Header 1 </a>
+													</li>
+													<li>
+														<a href="layout_search_on_header2.html">
+														<i class="fa fa-angle-right"></i> Search Box On Header 2 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_search_option1.html">
+														<i class="fa fa-angle-right"></i> Sidebar Search Option 1 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_search_option2.html">
+														<i class="fa fa-angle-right"></i> Sidebar Search Option 2 </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_reversed.html">
+														<i class="fa fa-angle-right"></i> Right Sidebar Page </a>
+													</li>
+													<li>
+														<a href="layout_sidebar_fixed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Fixed Page </a>
+													</li>
+												</ul>
+											</div>
+											<div class="clearfix visible-sm-block"></div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Even More!</h3>
+													</li>
+													<li>
+														<a href="layout_sidebar_closed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Closed Page </a>
+													</li>
+													<li>
+														<a href="layout_ajax.html">
+														<i class="fa fa-angle-right"></i> Content Loading via Ajax </a>
+													</li>
+													<li>
+														<a href="layout_disabled_menu.html">
+														<i class="fa fa-angle-right"></i> Disabled Menu Links </a>
+													</li>
+													<li>
+														<a href="layout_blank_page.html">
+														<i class="fa fa-angle-right"></i> Blank Page </a>
+													</li>
+													<li>
+														<a href="layout_boxed_page.html">
+														<i class="fa fa-angle-right"></i> Boxed Page </a>
+													</li>
+													<li>
+														<a href="layout_language_bar.html">
+														<i class="fa fa-angle-right"></i> Language Switch Bar </a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-3 col-sm-6 col-xs-12">
+												<ul class="mega-menu-submenu">
+													<li>
+														<h3>Even More!</h3>
+													</li>
+													<li>
+														<a href="layout_sidebar_closed.html">
+														<i class="fa fa-angle-right"></i> Sidebar Closed Page </a>
+													</li>
+													<li>
+														<a href="layout_ajax.html">
+														<i class="fa fa-angle-right"></i> Content Loading via Ajax </a>
+													</li>
+													<li>
+														<a href="layout_disabled_menu.html">
+														<i class="fa fa-angle-right"></i> Disabled Menu Links </a>
+													</li>
+													<li>
+														<a href="layout_blank_page.html">
+														<i class="fa fa-angle-right"></i> Blank Page </a>
+													</li>
+													<li>
+														<a href="layout_boxed_page.html">
+														<i class="fa fa-angle-right"></i> Boxed Page </a>
+													</li>
+													<li>
+														<a href="layout_language_bar.html">
+														<i class="fa fa-angle-right"></i> Language Switch Bar </a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-dropdown classic-menu-dropdown">
+							<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+							More <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu pull-left">
+								<li>
+									<a href="#">
+									<i class="fa fa-bookmark-o"></i> Section 1 <span class="badge badge-roundless badge-danger">new</span> </a>
+								</li>
+								<li>
+									<a href="#">
+									<i class="fa fa-user"></i> Section 2 </a>
+								</li>
+								<li>
+									<a href="#">
+									<i class="fa fa-puzzle-piece"></i> Section 3 </a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">
+									<i class="fa fa-gift"></i> Section 4 </a>
+								</li>
+								<li>
+									<a href="#">
+									<i class="fa fa-table"></i> Section 5 </a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-dropdown classic-menu-dropdown hide">
+							<a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+							More <i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu pull-left">
+								<li>
+									<a href="#">
+									<i class="fa fa-bookmark-o"></i> Section 1 <span class="badge badge-roundless badge-danger">new</span> </a>
+								</li>
+								<li>
+									<a href="#">
+									<i class="fa fa-user"></i> Section 2 </a>
+								</li>
+								<li>
+									<a href="#">
+									<i class="fa fa-puzzle-piece"></i> Section 3 </a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">
+									<i class="fa fa-gift"></i> Section 4 </a>
+								</li>
+								<li>
+									<a href="#">
+									<i class="fa fa-table"></i> Section 5 </a>
+								</li>
+								<li>
+									<a href="#">
+									<i class="fa fa-table"></i> Section 6 </a>
+								</li>
+								<li class="dropdown-submenu">
+									<a href="javascript:;">
+									<i class="fa fa-envelope-o"></i> More options </a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">
+											Second level link </a>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="javascript:;">
+											More options </a>
+											<ul class="dropdown-menu">
+												<li>
+													<a href="index.html">
+													Third level link </a>
+												</li>
+												<li>
+													<a href="index.html">
+													Third level link </a>
+												</li>
+												<li>
+													<a href="index.html">
+													Third level link </a>
+												</li>
+												<li>
+													<a href="index.html">
+													Third level link </a>
+												</li>
+												<li>
+													<a href="index.html">
+													Third level link </a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="index.html">
+											Second level link </a>
+										</li>
+										<li>
+											<a href="index.html">
+											Second level link </a>
+										</li>
+										<li>
+											<a href="index.html">
+											Second level link </a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- END MEGA MENU -->
+			</div>
+		</div>
+		<!-- END HEADER MENU -->
+	</div>
+	<!-- END HEADER -->
+	<!-- BEGIN PAGE CONTAINER -->
+	<div class="page-container">
+		<!-- BEGIN PAGE HEAD -->
+		<div class="page-head">
+			<div class="container">
+				<!-- BEGIN PAGE TITLE -->
+				<div class="page-title">
+					<h1>General portlets <small>Subtitle</small></h1>
+				</div>
+				<!-- END PAGE TITLE -->
+				<!-- BEGIN PAGE TOOLBAR -->
+				<div class="page-toolbar">
+					<!-- BEGIN THEME PANEL -->
+					<div class="btn-group btn-theme-panel">
+						<a href="javascript:;" class="btn dropdown-toggle" data-toggle="dropdown">
+						<i class="icon-settings"></i>
+						</a>
+						<div class="dropdown-menu theme-panel pull-right dropdown-custom hold-on-click">
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<h3>THEME COLORS</h3>
+									<div class="row">
+										<div class="col-md-6 col-sm-6 col-xs-12">
+											<ul class="theme-colors">
+												<li class="theme-color theme-color-default" data-theme="default">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Default</span>
+												</li>
+												<li class="theme-color theme-color-blue-hoki" data-theme="blue-hoki">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Blue Hoki</span>
+												</li>
+												<li class="theme-color theme-color-blue-steel" data-theme="blue-steel">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Blue Steel</span>
+												</li>
+												<li class="theme-color theme-color-yellow-orange" data-theme="yellow-orange">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Orange</span>
+												</li>
+												<li class="theme-color theme-color-yellow-crusta" data-theme="yellow-crusta">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Yellow Crusta</span>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-12">
+											<ul class="theme-colors">
+												<li class="theme-color theme-color-green-haze" data-theme="green-haze" >
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Green Haze</span>
+												</li>
+												<li class="theme-color theme-color-red-sunglo" data-theme="red-sunglo">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Red Sunglo</span>
+												</li>
+												<li class="theme-color theme-color-red-intense" data-theme="red-intense">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Red Intense</span>
+												</li>
+												<li class="theme-color theme-color-purple-plum" data-theme="purple-plum">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Purple Plum</span>
+												</li>
+												<li class="theme-color theme-color-purple-studio" data-theme="purple-studio">
+													<span class="theme-color-view"></span>
+													<span class="theme-color-name">Purple Studio</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12 seperator">
+									<h3>LAYOUT</h3>
+									<ul class="theme-settings">
+										<li>
+											Layout 
+											<select class="theme-setting theme-setting-layout form-control input-sm input-small input-inline tooltips" data-original-title="Change layout type" data-container="body" data-placement="left">
+												<option value="boxed" selected="selected">Boxed</option>
+												<option value="fluid">Fluid</option>
+											</select>
+										</li>
+										<li>
+											Top Menu Style
+											<select class="theme-setting theme-setting-top-menu-style form-control input-sm input-small input-inline tooltips" data-original-title="Change top menu dropdowns style" data-container="body" data-placement="left">
+												<option value="dark" selected="selected">Dark</option>
+												<option value="light">Light</option>
+											</select>
+										</li>
+										<li>
+											Top Menu Mode
+											<select class="theme-setting theme-setting-top-menu-mode form-control input-sm input-small input-inline tooltips" data-original-title="Enable fixed(sticky) top menu" data-container="body" data-placement="left">
+												<option value="fixed">Fixed</option>
+												<option value="not-fixed" selected="selected">Not Fixed</option>
+											</select>
+										</li>
+										<li>
+											Mega Menu Style
+											<select class="theme-setting theme-setting-mega-menu-style form-control input-sm input-small input-inline tooltips" data-original-title="Change mega menu dropdowns style" data-container="body" data-placement="left">
+												<option value="dark" selected="selected">Dark</option>
+												<option value="light">Light</option>
+											</select>
+										</li>
+										<li>
+											Mega Menu Mode
+											<select class="theme-setting theme-setting-mega-menu-mode form-control input-sm input-small input-inline tooltips" data-original-title="Enable fixed(sticky) mega menu" data-container="body" data-placement="left">
+												<option value="fixed" selected="selected">Fixed</option>
+												<option value="not-fixed">Not Fixed</option>
+											</select>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END THEME PANEL -->
+				</div>
+				<!-- END PAGE TOOLBAR -->
+			</div>
+		</div>
+		<!-- END PAGE HEAD -->
+		<!-- BEGIN PAGE CONTENT -->
+		<div class="page-content">
+			<div class="container">
+				<!-- BEGIN PAGE BREADCRUMB -->
+				<ul class="page-breadcrumb breadcrumb">
+					<li><a href="#">Home</a> <i class="fa fa-circle"></i></li>
+					<li><a href="#">Portlets</a> <i class="fa fa-circle"></i></li>
+					<li class="active">General</li>
+				</ul>
+				<!-- END PAGE BREADCRUMB -->
+				<!-- BEGIN PAGE CONTENT INNER -->
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<!-- BEGIN PORTLET-->
+						<div class="portlet light ">
+							<div class="portlet-title">
+								<div class="caption caption-md">
+									<i class="icon-bar-chart theme-font hide"></i>
+									<span class="caption-subject  theme-font bold uppercase">Sales Summary</span>
+									<span class="caption-helper hide">weekly stats...</span>
+								</div>
+								<div class="actions">
+									<div class="btn-group btn-group-devided" data-toggle="buttons">
+										<label class="btn btn-transparent grey-salsa btn-circle btn-sm active">
+										<input type="radio" name="options" class="toggle" id="option1">Today</label>
+										<label class="btn btn-transparent grey-salsa btn-circle btn-sm">
+										<input type="radio" name="options" class="toggle" id="option2">Week</label>
+										<label class="btn btn-transparent grey-salsa btn-circle btn-sm">
+										<input type="radio" name="options" class="toggle" id="option2">Month</label>
+									</div>
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="row list-separated">
+									<div class="col-md-3 col-sm-3 col-xs-6">
+										<div class="font-grey-mint font-sm">Total Sales</div>
+										<div class="uppercase font-hg font-red-flamingo">13,760 <span class="font-lg font-grey-mint">$</span></div>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-6">
+										<div class="font-grey-mint font-sm">Revenue</div>
+										<div class="uppercase font-hg theme-font">4,760 <span class="font-lg font-grey-mint">$</span></div>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-6">
+										<div class="font-grey-mint font-sm">Expenses</div>
+										<div class="uppercase font-hg font-purple">11,760 <span class="font-lg font-grey-mint">$</span></div>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-6">
+										<div class="font-grey-mint font-sm">Growth</div>
+										<div class="uppercase font-hg font-blue-sharp">9,760 <span class="font-lg font-grey-mint">$</span></div>
+									</div>
+								</div>
+								<ul class="list-separated list-inline-xs hide">
+									<li class="">
+										<div class="font-grey-mint font-sm">Total Sales</div>
+										<div class="uppercase font-hg font-red-flamingo">13,760 <span class="font-lg font-grey-mint">$</span></div>
+									</li>
+									<li class=""></li>
+									<li class="border">
+										<div class="font-grey-mint font-sm">Revenue</div>
+										<div class="uppercase font-hg theme-font">4,760 <span class="font-lg font-grey-mint">$</span></div>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<div class="font-grey-mint font-sm">Expenses</div>
+										<div class="uppercase font-hg font-purple">11,760 <span class="font-lg font-grey-mint">$</span></div>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<div class="font-grey-mint font-sm">Growth</div>
+										<div class="uppercase font-hg font-blue-sharp">9,760 <span class="font-lg font-grey-mint">$</span></div>
+									</li>
+								</ul>
+								<div id="sales_statistics" class="portlet-body-morris-fit morris-chart" style="height: 260px">
+								</div>
+							</div>
+						</div>
+						<!-- END PORTLET-->
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<!-- BEGIN PORTLET-->
+						<div class="portlet light ">
+							<div class="portlet-title">
+								<div class="caption caption-md">
+									<i class="icon-bar-chart theme-font hide"></i>
+									<span class="caption-subject  theme-font bold uppercase">Memeber Activity</span>
+									<span class="caption-helper hide">weekly stats...</span>
+								</div>
+								<div class="actions">
+									<div class="btn-group btn-group-devided" data-toggle="buttons">
+										<label class="btn btn-transparent grey-salsa btn-circle btn-sm active">
+										<input type="radio" name="options" class="toggle" id="option1">Today</label>
+										<label class="btn btn-transparent grey-salsa btn-circle btn-sm">
+										<input type="radio" name="options" class="toggle" id="option2">Week</label>
+										<label class="btn btn-transparent grey-salsa btn-circle btn-sm">
+										<input type="radio" name="options" class="toggle" id="option2">Month</label>
+									</div>
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="row number-stats margin-bottom-30">
+									<div class="col-md-6 col-sm-6 col-xs-6">
+										<div class="stat-left">
+											<div class="stat-chart">
+												<div id="sparkline_bar"></div>
+											</div>
+											<div class="stat-number">
+												<div class="title">Total</div>
+												<div class="number">2460</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 col-xs-6">
+										<div class="stat-right">
+											<div class="stat-chart">
+												<div id="sparkline_bar2"></div>
+											</div>
+											<div class="stat-number">
+												<div class="title">New</div>
+												<div class="number">719</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="table-scrollable table-scrollable-borderless">
+									<table class="table table-hover table-light">
+										<thead>
+											<tr class="uppercase">
+												<th colspan="2">
+													MEMBER
+												</th>
+												<th>
+													Earnings
+												</th>
+												<th>
+													CASES
+												</th>
+												<th>
+													CLOSED
+												</th>
+												<th>
+													RATE
+												</th>
+											</tr>
+										</thead>
+										<tr>
+											<td class="fit">
+												<img class="user-pic" src="../../assets/admin/layout3/img/avatar4.jpg">
+											</td>
+											<td>
+												<a href="#" class="primary-link">Brain</a>
+											</td>
+											<td>
+												$345
+											</td>
+											<td>
+												45
+											</td>
+											<td>
+												124
+											</td>
+											<td>
+												<span class="bold theme-font">80%</span>
+											</td>
+										</tr>
+										<tr>
+											<td class="fit">
+												<img class="user-pic" src="../../assets/admin/layout3/img/avatar5.jpg">
+											</td>
+											<td>
+												<a href="#" class="primary-link">Nick</a>
+											</td>
+											<td>
+												$560
+											</td>
+											<td>
+												12
+											</td>
+											<td>
+												24
+											</td>
+											<td>
+												<span class="bold theme-font">67%</span>
+											</td>
+										</tr>
+										<tr>
+											<td class="fit">
+												<img class="user-pic" src="../../assets/admin/layout3/img/avatar6.jpg">
+											</td>
+											<td>
+												<a href="#" class="primary-link">Tim</a>
+											</td>
+											<td>
+												$1,345
+											</td>
+											<td>
+												450
+											</td>
+											<td>
+												46
+											</td>
+											<td>
+												<span class="bold theme-font">98%</span>
+											</td>
+										</tr>
+										<tr>
+											<td class="fit">
+												<img class="user-pic" src="../../assets/admin/layout3/img/avatar7.jpg">
+											</td>
+											<td>
+												<a href="#" class="primary-link">Tom</a>
+											</td>
+											<td>
+												$645
+											</td>
+											<td>
+												50
+											</td>
+											<td>
+												89
+											</td>
+											<td>
+												<span class="bold theme-font">58%</span>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<!-- END PORTLET-->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<!-- BEGIN PORTLET-->
+						<div class="portlet light tasks-widget">
+							<div class="portlet-title">
+								<div class="caption caption-md">
+									<i class="icon-bar-chart theme-font hide"></i>
+									<span class="caption-subject  theme-font bold uppercase">TASKS</span>
+									<span class="caption-helper">16 pending</span>
+								</div>
+								<div class="inputs">
+									<div class="portlet-input input-small input-inline">
+										<div class="input-icon right">
+											<i class="icon-magnifier"></i>
+											<input type="text" class="form-control form-control-solid" placeholder="search...">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="task-content">
+									<div class="scroller" style="height: 282px;" data-always-visible="1" data-rail-visible1="0" data-handle-color="#D7DCE2">
+										<!-- START TASK LIST -->
+										<ul class="task-list">
+											<li>
+												<div class="task-checkbox">
+													<input type="hidden" value="1" name="test"/>
+													<input type="checkbox" class="liChild" value="2" name="test"/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													Present 2013 Year IPO Statistics at Board Meeting </span>
+													<span class="label label-sm label-success">Company</span>
+													<span class="task-bell">
+													<i class="fa fa-bell-o"></i>
+													</span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="task-checkbox">
+													<input type="checkbox" class="liChild" value=""/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													Hold An Interview for Marketing Manager Position </span>
+													<span class="label label-sm label-danger">Marketing</span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="task-checkbox">
+													<input type="checkbox" class="liChild" value=""/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													AirAsia Intranet System Project Internal Meeting </span>
+													<span class="label label-sm label-success">AirAsia</span>
+													<span class="task-bell">
+													<i class="fa fa-bell-o"></i>
+													</span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="task-checkbox">
+													<input type="checkbox" class="liChild" value=""/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													Technical Management Meeting </span>
+													<span class="label label-sm label-warning">Company</span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="task-checkbox">
+													<input type="checkbox" class="liChild" value=""/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													Kick-off Company CRM Mobile App Development </span>
+													<span class="label label-sm label-info">Internal Products</span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="task-checkbox">
+													<input type="checkbox" class="liChild" value=""/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													Prepare Commercial Offer For SmartVision Website Rewamp </span>
+													<span class="label label-sm label-danger">SmartVision</span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="task-checkbox">
+													<input type="checkbox" class="liChild" value=""/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													Sign-Off The Comercial Agreement With AutoSmart </span>
+													<span class="label label-sm label-default">AutoSmart</span>
+													<span class="task-bell">
+													<i class="fa fa-bell-o"></i>
+													</span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="task-checkbox">
+													<input type="checkbox" class="liChild" value=""/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													Company Staff Meeting </span>
+													<span class="label label-sm label-success">Cruise</span>
+													<span class="task-bell">
+													<i class="fa fa-bell-o"></i>
+													</span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="last-line">
+												<div class="task-checkbox">
+													<input type="checkbox" class="liChild" value=""/>
+												</div>
+												<div class="task-title">
+													<span class="task-title-sp">
+													KeenThemes Investment Discussion </span>
+													<span class="label label-sm label-warning">KeenThemes </span>
+												</div>
+												<div class="task-config">
+													<div class="task-config-btn btn-group">
+														<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
+														</a>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<a href="#">
+																<i class="fa fa-check"></i> Complete </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-pencil"></i> Edit </a>
+															</li>
+															<li>
+																<a href="#">
+																<i class="fa fa-trash-o"></i> Cancel </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<!-- END START TASK LIST -->
+									</div>
+								</div>
+								<div class="task-footer">
+									<div class="btn-arrow-link pull-right">
+										<a href="#">See All Tasks</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END PORTLET-->
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<!-- BEGIN PORTLET-->
+						<div class="portlet light">
+							<div class="portlet-title">
+								<div class="caption caption-md">
+									<i class="icon-bar-chart theme-font hide"></i>
+									<span class="caption-subject theme-font bold uppercase">Customer Support</span>
+									<span class="caption-helper">45 pending</span>
+								</div>
+								<div class="inputs">
+									<div class="portlet-input input-inline input-small ">
+										<div class="input-icon right">
+											<i class="icon-magnifier"></i>
+											<input type="text" class="form-control form-control-solid" placeholder="search...">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="scroller" style="height: 305px;" data-always-visible="1" data-rail-visible1="0" data-handle-color="#D7DCE2">
+									<div class="general-item-list">
+										<div class="item">
+											<div class="item-head">
+												<div class="item-details">
+													<img class="item-pic" src="../../assets/admin/layout3/img/avatar4.jpg">
+													<a href="" class="item-name primary-link">Nick Larson</a>
+													<span class="item-label">3 hrs ago</span>
+												</div>
+												<span class="item-status"><span class="badge badge-empty badge-success"></span> Open</span>
+											</div>
+											<div class="item-body">
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-head">
+												<div class="item-details">
+													<img class="item-pic" src="../../assets/admin/layout3/img/avatar3.jpg">
+													<a href="" class="item-name primary-link">Mark</a>
+													<span class="item-label">5 hrs ago</span>
+												</div>
+												<span class="item-status"><span class="badge badge-empty badge-warning"></span> Pending</span>
+											</div>
+											<div class="item-body">
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat tincidunt ut laoreet.
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-head">
+												<div class="item-details">
+													<img class="item-pic" src="../../assets/admin/layout3/img/avatar6.jpg">
+													<a href="" class="item-name primary-link">Nick Larson</a>
+													<span class="item-label">8 hrs ago</span>
+												</div>
+												<span class="item-status"><span class="badge badge-empty badge-primary"></span> Closed</span>
+											</div>
+											<div class="item-body">
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-head">
+												<div class="item-details">
+													<img class="item-pic" src="../../assets/admin/layout3/img/avatar7.jpg">
+													<a href="" class="item-name primary-link">Nick Larson</a>
+													<span class="item-label">12 hrs ago</span>
+												</div>
+												<span class="item-status"><span class="badge badge-empty badge-danger"></span> Pending</span>
+											</div>
+											<div class="item-body">
+												Consectetuer adipiscing elit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-head">
+												<div class="item-details">
+													<img class="item-pic" src="../../assets/admin/layout3/img/avatar9.jpg">
+													<a href="" class="item-name primary-link">Richard Stone</a>
+													<span class="item-label">2 days ago</span>
+												</div>
+												<span class="item-status"><span class="badge badge-empty badge-danger"></span> Open</span>
+											</div>
+											<div class="item-body">
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, ut laoreet dolore magna aliquam erat volutpat.
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-head">
+												<div class="item-details">
+													<img class="item-pic" src="../../assets/admin/layout3/img/avatar8.jpg">
+													<a href="" class="item-name primary-link">Dan</a>
+													<span class="item-label">3 days ago</span>
+												</div>
+												<span class="item-status"><span class="badge badge-empty badge-warning"></span> Pending</span>
+											</div>
+											<div class="item-body">
+												Lorem ipsum dolor sit amet, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-head">
+												<div class="item-details">
+													<img class="item-pic" src="../../assets/admin/layout3/img/avatar2.jpg">
+													<a href="" class="item-name primary-link">Larry</a>
+													<span class="item-label">4 hrs ago</span>
+												</div>
+												<span class="item-status"><span class="badge badge-empty badge-success"></span> Open</span>
+											</div>
+											<div class="item-body">
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END PORTLET-->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<!-- BEGIN REGIONAL STATS PORTLET-->
+						<div class="portlet light ">
+							<div class="portlet-title">
+								<div class="caption caption-md">
+									<i class="icon-bar-chart theme-font hide"></i>
+									<span class="caption-subject theme-font bold uppercase">Regional Stats</span>
+								</div>
+								<div class="actions">
+									<a class="btn btn-circle btn-icon-only btn-default" href="#">
+									<i class="icon-cloud-upload"></i>
+									</a>
+									<a class="btn btn-circle btn-icon-only btn-default" href="#">
+									<i class="icon-wrench"></i>
+									</a>
+									<a class="btn btn-circle btn-icon-only btn-default" href="#">
+									<i class="icon-trash"></i>
+									</a>
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div id="region_statistics_loading">
+									<img src="../../assets/admin/layout/img/loading.gif" alt="loading"/>
+								</div>
+								<div id="region_statistics_content" class="display-none">
+									<div class="btn-toolbar margin-bottom-10">
+										<div class="btn-group btn-group-circle" data-toggle="buttons">
+											<a href="" class="btn grey-salsa btn-sm active">
+											Users </a>
+											<a href="" class="btn grey-salsa btn-sm">
+											Orders </a>
+										</div>
+										<div class="btn-group pull-right">
+											<a href="" class="btn btn-circle grey-salsa btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+											Select Region <span class="fa fa-angle-down">
+											</span>
+											</a>
+											<ul class="dropdown-menu pull-right">
+												<li>
+													<a href="javascript:;" id="regional_stat_world">
+													World </a>
+												</li>
+												<li>
+													<a href="javascript:;" id="regional_stat_usa">
+													USA </a>
+												</li>
+												<li>
+													<a href="javascript:;" id="regional_stat_europe">
+													Europe </a>
+												</li>
+												<li>
+													<a href="javascript:;" id="regional_stat_russia">
+													Russia </a>
+												</li>
+												<li>
+													<a href="javascript:;" id="regional_stat_germany">
+													Germany </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div id="vmap_world" class="vmaps display-none">
+									</div>
+									<div id="vmap_usa" class="vmaps display-none">
+									</div>
+									<div id="vmap_europe" class="vmaps display-none">
+									</div>
+									<div id="vmap_russia" class="vmaps display-none">
+									</div>
+									<div id="vmap_germany" class="vmaps display-none">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END REGIONAL STATS PORTLET-->
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<!-- BEGIN PORTLET-->
+						<div class="portlet light">
+							<div class="portlet-title tabbable-line">
+								<div class="caption caption-md">
+									<i class="icon-globe theme-font hide"></i>
+									<span class="caption-subject theme-font bold uppercase">Feeds</span>
+								</div>
+								<ul class="nav nav-tabs">
+									<li class="active">
+										<a href="#tab_1_1" data-toggle="tab">
+										System </a>
+									</li>
+									<li>
+										<a href="#tab_1_2" data-toggle="tab">
+										Activities </a>
+									</li>
+								</ul>
+							</div>
+							<div class="portlet-body">
+								<!--BEGIN TABS-->
+								<div class="tab-content">
+									<div class="tab-pane active" id="tab_1_1">
+										<div class="scroller" style="height: 337px;" data-always-visible="1" data-rail-visible1="0" data-handle-color="#D7DCE2">
+											<ul class="feeds">
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-success">
+																	<i class="fa fa-bell-o"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	You have 4 pending tasks. <span class="label label-sm label-info">
+																	Take action <i class="fa fa-share"></i>
+																	</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															Just now
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New version v1.4 just lunched!
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																20 mins
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-danger">
+																	<i class="fa fa-bolt"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	Database server #12 overloaded. Please fix the issue.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															24 mins
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-info">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															30 mins
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-success">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															40 mins
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-warning">
+																	<i class="fa fa-plus"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New user registered.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															1.5 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-success">
+																	<i class="fa fa-bell-o"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	Web server hardware needs to be upgraded. <span class="label label-sm label-default ">
+																	Overdue </span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															2 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-default">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															3 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-warning">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															5 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-info">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															18 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-default">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															21 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-info">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															22 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-default">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															21 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-info">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															22 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-default">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															21 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-info">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															22 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-default">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															21 hours
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-info">
+																	<i class="fa fa-bullhorn"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	New order received. Please take care of it.
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															22 hours
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="tab-pane" id="tab_1_2">
+										<div class="scroller" style="height: 337px;" data-always-visible="1" data-rail-visible1="0" data-handle-color="#D7DCE2">
+											<ul class="feeds">
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New user registered
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																Just now
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New order received
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																10 mins
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<div class="col1">
+														<div class="cont">
+															<div class="cont-col1">
+																<div class="label label-sm label-danger">
+																	<i class="fa fa-bolt"></i>
+																</div>
+															</div>
+															<div class="cont-col2">
+																<div class="desc">
+																	Order #24DOP4 has been rejected. <span class="label label-sm label-danger ">
+																	Take action <i class="fa fa-share"></i>
+																	</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col2">
+														<div class="date">
+															24 mins
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New user registered
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																Just now
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New user registered
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																Just now
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New user registered
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																Just now
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New user registered
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																Just now
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New user registered
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																Just now
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New user registered
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																Just now
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="col1">
+															<div class="cont">
+																<div class="cont-col1">
+																	<div class="label label-sm label-success">
+																		<i class="fa fa-bell-o"></i>
+																	</div>
+																</div>
+																<div class="cont-col2">
+																	<div class="desc">
+																		New user registered
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col2">
+															<div class="date">
+																Just now
+															</div>
+														</div>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!--END TABS-->
+							</div>
+						</div>
+						<!-- END PORTLET-->
+					</div>
+				</div>
+				<!-- END PAGE CONTENT INNER -->
+			</div>
+		</div>
+		<!-- END PAGE CONTENT -->
+	</div>
+	<!-- End PAGE CONTAINER -->
+	<!-- BEGIN PRE-FOOTER -->
+	<div class="page-prefooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12 footer-block">
+					<h2>About</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam dolore.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs12 footer-block">
+					<h2>Subscribe Email</h2>
+					<div class="subscribe-form">
+						<form action="#">
+							<div class="input-group">
+								<input type="text" placeholder="mail@email.com" class="form-control">
+								<span class="input-group-btn">
+								<button class="btn" type="submit">Submit</button>
+								</span>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 footer-block">
+					<h2>Follow Us On</h2>
+					<ul class="social-icons">
+						<li><a href="#" data-original-title="rss" class="rss"></a></li>
+						<li><a href="#" data-original-title="facebook" class="facebook"></a></li>
+						<li><a href="#" data-original-title="twitter" class="twitter"></a></li>
+						<li><a href="#" data-original-title="googleplus" class="googleplus"></a></li>
+						<li><a href="#" data-original-title="linkedin" class="linkedin"></a></li>
+						<li><a href="#" data-original-title="youtube" class="youtube"></a></li>
+						<li><a href="#" data-original-title="vimeo" class="vimeo"></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 footer-block">
+					<h2>Contacts</h2>
+					<address class="margin-bottom-40">
+						Phone: 800 123 3456<br>
+						Email: <a href="mailto:info@metronic.com">info@metronic.com</a>
+					</address>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END PRE-FOOTER -->
+	<!-- BEGIN FOOTER -->
+	<div class="page-footer">
+		<div class="container">
+			2014 &copy; Metronic. All Rights Reserved. 
+		</div>
+	</div>
+	<div class="scroll-to-top">
+		<i class="icon-arrow-up"></i>
+	</div>
+	<!-- END FOOTER -->
+	<!-- BEGIN JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
+	<!-- BEGIN CORE PLUGINS -->
+	<!--[if lt IE 9]>
+	<script src="../../assets/global/plugins/respond.min.js"></script>
+	<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+	<![endif]-->
+	<script src="../../assets/global/plugins/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+	<script src="../../assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+	<!-- END CORE PLUGINS -->
+	<!-- BEGIN PAGE LEVEL PLUGINS -->
+	<script src="../../assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+	<!-- IMPORTANT! fullcalendar depends on jquery-ui-1.10.3.custom.min.js for drag & drop support -->
+	<script src="../../assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
+	<script src="../../assets/global/plugins/morris/raphael-min.js" type="text/javascript"></script>
+	<!-- END PAGE LEVEL PLUGINS -->
+	<!-- BEGIN PAGE LEVEL SCRIPTS -->
+	<script src="../../assets/global/scripts/metronic.js" type="text/javascript"></script>
+	<script src="../../assets/admin/layout3/scripts/layout.js" type="text/javascript"></script>
+	<script src="../../assets/admin/layout3/scripts/demo.js" type="text/javascript"></script>
+	<script src="../../assets/admin/pages/scripts/index3.js" type="text/javascript"></script>
+	<script src="../../assets/admin/pages/scripts/tasks.js" type="text/javascript"></script>
+	<!-- END PAGE LEVEL SCRIPTS -->
+	<script>
+		jQuery(document).ready(function() {    
+		   Metronic.init(); // init metronic core componets
+		   Layout.init(); // init layout
+		   Demo.init(); // init demo(theme settings page)
+		   Index.init(); // init index page
+		   Tasks.initDashboardWidget(); // init tash dashboard widget
+		});
+	</script>
+	<!-- END JAVASCRIPTS -->
+</body><!-- END BODY -->
+</html>

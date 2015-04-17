@@ -1,0 +1,150 @@
+
+@media (min-width: 1200px){
+	.container {
+		width: 1200px;
+	}
+}
+	
+@media (min-width: 992px){
+	.container {
+		width: 1170px;
+	}
+}
+
+.col-md-4 {
+	padding-right:20px;
+	padding-left: 20px;
+	margin-bottom:40px;
+}
+
+body {
+	background: #eff4f6;
+}
+
+.jumbotron {
+	background: #f5f8f9;
+}
+
+.btn, h1, h2, h3, p, span, a {
+	font-family:Source Sans Pro; 
+}
+
+.title-main {
+	font-size: 38px;
+	font-weight: 400;
+	color: #E35C59;
+}
+
+.title-thin {
+	font-size: 38px;
+	font-weight: 300;
+	color: #767f89;
+}
+
+.title-normal {
+	font-size: 38px;
+	font-weight: 400;
+	color: #767f89;
+}
+
+.title-small {
+	font-size: 26px;
+	font-weight: 300;
+	color: #767f89;	
+}
+
+.title-box {
+	display: inline-block; 
+	margin-top: 10px; 
+	font-size: 22px; 
+	background: #EB6D6D; 
+	color: #fff;
+	padding: 0px 8px;
+	font-weight: 300;
+}
+
+.navbar {
+	background: #2b3643;
+	height:70px;
+}
+
+.navbar-header { 
+	width:100%;
+}
+
+.page-logo {
+	float: left;
+	display: block;
+	width: 123px;
+	height: 18px;
+	padding-top: 10px;
+}
+
+.btn-purchase {
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: block;
+	padding-top: 18px;
+}
+
+.jumbotron {
+	margin-top:50px;
+}
+
+/* LAYOUT WIDGET */
+
+.widget-layout {
+	position: relative;
+	background: #ffffff;
+	overflow:hidden;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+}
+
+.widget-badge {
+	position: absolute;
+	top:0px; 
+	right:0px;
+}
+
+.widget-title {
+	font-size: 21px;
+	color: #677c88;
+	padding-top: 15px; 
+	padding-left: 20px; 
+}
+
+.widget-screen {
+	margin-top: -5px;
+	padding-left:20px;
+}
+
+.widget-btn {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.btn-disabled {
+	color: #fff;
+	background-color: #ddd;
+	border-color: #ddd;
+}
+
+.btn-disabled:hover {
+	color: #fff;
+	background-color: #ccc;
+	border-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
